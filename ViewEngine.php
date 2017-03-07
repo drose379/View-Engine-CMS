@@ -15,7 +15,7 @@ class ViewEngine {
 
 	public function view() {
 		extract( $this->_content );
-		$output = require $this->template;
+		$output = require $this->_templateFile;
 		return $output;
 	}
 	
