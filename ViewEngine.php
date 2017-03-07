@@ -2,10 +2,8 @@
 
 class ViewEngine {
 
-	/**
 	private $_templateFile;
 	private array $_content;
-
 
 	public function __construct( $templateFile ) {
 		$this->_templateFile = $templateFile;
@@ -20,6 +18,5 @@ class ViewEngine {
 		$output = require $this->template;
 		return $output;
 	}
-	*/
 	
 }
