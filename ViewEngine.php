@@ -3,7 +3,7 @@
 class ViewEngine {
 
 	private $_templateFile;
-	private array $_content;
+	private $_content;
 
 	public function __construct( $templateFile ) {
 		$this->_templateFile = $templateFile;
