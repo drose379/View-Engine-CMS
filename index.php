@@ -1,3 +1,3 @@
 <?php
 
-echo "HEY";
+echo $_SERVER["DOCUMENT_ROOT"];
