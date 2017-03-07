@@ -1,3 +1,3 @@
 <?php
 
-require __DIR__ . "/ViewEngine.php";
+require dirname( __FILE__ ) .  '/ViewEngine.php';
