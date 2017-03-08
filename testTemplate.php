@@ -5,13 +5,13 @@
 <body>
 
 <h1><?= $header ?></h1>
-<li>
+<ul>
 <?php
 	foreach( $items as $item ) {
-		echo "<li>" .$item. "</li>"
+		echo "<li>" .$item. "</li>";
 	}
 ?>
-</li>
+</ul>
 
 </body>
 </html>
