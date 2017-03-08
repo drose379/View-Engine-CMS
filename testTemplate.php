@@ -7,7 +7,9 @@
 <h1><?= $header ?></h1>
 <li>
 <?php
-	$items;
+	foreach( $items as $item ) {
+		echo "<li>" .$item. "</li>"
+	}
 ?>
 </li>
 
